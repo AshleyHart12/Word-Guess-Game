@@ -1,0 +1,22 @@
+body {
+    background: url("wildwest.jpg");
+}
+
+
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+    
+  }
+
+.headline { 
+   text-align: center;
+} 
+
+.leftbox .rightbox {
+    border: dotted;
+}
+
