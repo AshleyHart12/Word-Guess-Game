@@ -1,22 +1,47 @@
 body {
-    background: url("wildwest.jpg");
+    background: url("assets/images/wildwest.jpg");
+    font-family: 'Unlock', cursive;
+    
+    
 }
-
-
 
 .container {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
     clear: both;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
     
   }
 
 .headline { 
-   text-align: center;
+   margin-bottom: 20px;
+   
 } 
 
-.leftbox .rightbox {
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 10px;
+    background-color: #FFE2B9;
+}
+
+#currentWord {
+    letter-spacing: 10px;
+}
+
+#currentWord, #guessedLetters, #totalWins {
+    padding: 20px;
+    
+}
+
+.row {
+    padding: 10px;
     border: dotted;
+}
+
+#box2 {
+    margin-top: 100px;
 }
 
